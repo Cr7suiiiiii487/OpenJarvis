@@ -1,4 +1,76 @@
-Why OpenJarvis?
-Personal AI agents are exploding in popularity, but nearly all of them still route intelligence through cloud APIs. Your "personal" AI continues to depend on someone else's server. At the same time, our Intelligence Per Watt research showed that local language models already handle 88.7% of single-turn chat and reasoning queries, with intelligence efficiency improving 5.3× from 2023 to 2025. The models and hardware are increasingly ready. What has been missing is the software stack to make local-first personal AI practical.
+# OpenJarvis 🤖
+### Your Personal AI Assistant
 
-OpenJarvis is that stack. It is a framework for local-first personal AI, built around three core ideas: shared primitives for building on-device agents; evaluations that treat energy, FLOPs, latency, and dollar cost as first-class constraints alongside accuracy; and a learning loop that improves models using local trace data. The goal is simple: make it possible to build personal AI agents that run locally by default, calling the cloud only when truly necessary. OpenJarvis aims to be both a research platform and a production foundation for local AI, in the spirit of PyTorch.
+OpenJarvis is an AI-powered personal assistant designed to make everyday tasks easier through intelligent conversations, voice commands, and device automation.
+
+## ✨ Features
+- AI-powered conversations.
+- Voice and text interaction.
+- PC and smartphone integration.
+- Task automation.
+- Web search and coding assistance.
+
+## 📥 Installation
+
+### 1. Download OpenJarvis
+Download or clone this repository to your computer.
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Alternatively, download the project as a ZIP file and extract it.
+
+### 2. Open the Project
+Navigate to the project directory:
+
+```bash
+cd OpenJarvis
+```
+
+### 3. Install Dependencies
+
+If the project uses Python, make sure Python 3.10 or newer is installed.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure Environment Variables
+
+If the project requires API keys, create a `.env` file in the main project directory and add your credentials.
+
+```env
+API_KEY=your_api_key_here
+```
+
+### 5. Launch OpenJarvis
+
+For a Python-based installation, run:
+
+```bash
+python main.py
+```
+
+Follow the instructions displayed in the terminal.
+
+## 💻 Requirements
+- Windows, Linux, or macOS.
+- Python 3.10+ (if using the Python version).
+- Internet connection for online AI features.
+- Required API keys, depending on your configuration.
+
+## ❓ Troubleshooting
+
+- **Python not found:** Install Python and enable PATH during installation.
+- **Missing modules:** Run `pip install -r requirements.txt` again.
+- **API errors:** Check your API key and internet connection.
+- **Startup issues:** Make sure you are running commands from the project directory.
+
+## 📜 License
+
+Check the repository's license file for usage and distribution permissions.
+
+---
+
+**OpenJarvis – Intelligence at your command.**
