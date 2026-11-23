@@ -67,10 +67,5 @@ Follow the instructions displayed in the terminal.
 - **API errors:** Check your API key and internet connection.
 - **Startup issues:** Make sure you are running commands from the project directory.
 
-## 📜 License
-
-Check the repository's license file for usage and distribution permissions.
-
----
 
 **OpenJarvis – Intelligence at your command.**
